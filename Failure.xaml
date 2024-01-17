@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Insistency.Failure"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="REAJA, REAJA, REAJA!!!"
+    BackgroundImageSource="bgfail.svg">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label
+                FontSize="28"
+                Text="Não esqueça por qual motivo voce estuda:              -&gt; Não se tornar um fracassado"
+                TextColor="Snow"
+                TranslationX="10"
+                TranslationY="30" />
+
+            <Label
+                FontSize="25"
+                Text="Sem Motivação?"
+                TextColor="Black"
+                TranslationX="90"
+                TranslationY="80" />
+
+            <Button
+                BackgroundColor="Black"
+                Clicked="BotaoSemMotivacao"
+                Text="Clique Aqui"
+                TranslationY="100"
+                WidthRequest="200" 
+                />
+
+            <Label
+                FontSize="25"
+                Text="Sem Vontade?"
+                TextColor="Black"
+                TranslationX="95"
+                TranslationY="150" />
+
+            <Button
+                BackgroundColor="Black"
+                Text="Clique Aqui"
+                TranslationY="170"
+                WidthRequest="200" 
+                Clicked="BotaoSemVontade"/>
+
+            <Label
+                FontSize="16"
+                Text="Ultima chance, volte atras! REAGE CARAMBA"
+                TranslationX="18"
+                TranslationY="200"
+                LineBreakMode="NoWrap"
+                   />
+
+
+            <Button WidthRequest="100"
+                    HeightRequest="40"
+                    TranslationY="215"
+                    TranslationX="5"
+                    Text="REAGE"
+                    BackgroundColor="Red"
+                    Clicked="BotaoUltimaChance"> </Button>
+
+
+
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

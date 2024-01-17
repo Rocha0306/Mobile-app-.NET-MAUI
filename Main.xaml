@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Insistency.MainPage"
+             BackgroundImageSource="backgroundapp.svg"
+             Title="         THE ART OF DISCIPLINE           "
+             >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image Source="Resources/Images/brain.png"> </Image>
+              
+            <Label Text="Win"
+                   FontSize="Title"
+                    TextColor="Black"
+                    FontAttributes="Bold,Italic"
+                   TranslationX="75"
+                   TranslationY="65"
+                   > </Label>
+
+            <Label Text="Failure"
+                   FontSize="Title"
+                    TextColor="Black"
+                    FontAttributes="Bold,Italic" 
+                   TranslationX="166"
+                   TranslationY="10"> </Label>
+               <!--TextBox da Win-->
+            <Frame WidthRequest="60"
+                   HeightRequest="50"
+                   TranslationX="-55">
+                <Entry WidthRequest="30"
+                       HeightRequest="40"
+                       VerticalTextAlignment="Center"
+                       Completed="ValidarCaixaW"
+                       x:Name="CaixaWin"
+                       TextColor="Black"> </Entry>
+                
+            </Frame>
+            <!--TextBox da Failure-->
+            <Frame WidthRequest="60"
+                   HeightRequest="50"
+                   TranslationY="-75"
+                   TranslationX="50">
+                <Entry WidthRequest="30"
+                       HeightRequest="40"
+                       VerticalTextAlignment="Center"
+                       x:Name="CaixaFailure"
+                       Completed="ValidarCaixaFailure"> </Entry>
+
+            </Frame>
+            
+
+            <Button WidthRequest="150"
+                    TranslationY="-40"
+                    Text="Just Click"
+                    BackgroundColor="Black"
+                    Clicked="ClickBotao"> 
+                
+            </Button>
+            
+            
+            
+            
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
