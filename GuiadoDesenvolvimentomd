@@ -1,0 +1,7 @@
+Aplicativo de Monitoramento de Constância
+Este aplicativo foi criado com o objetivo de auxiliar os usuários em manter a constância em suas atividades diárias. O aplicativo verifica se o usuário está sendo constante ou não, e abre uma nova aba para gerar motivação se o usuário não estiver constante. Se o usuário estiver constante, o aplicativo abrirá outra aba para ajudá-lo a manter sua constância.
+
+Funcionalidades
+Verificação de constância: O aplicativo verifica regularmente se o usuário está sendo constante em suas atividades. Isso é feito através da coleta de dados sobre as atividades do usuário e comparando-as com seus objetivos de constância.
+Abrir aba de motivação: Se o usuário não estiver sendo constante, o aplicativo abrirá uma nova aba com conteúdo motivacional. Este conteúdo pode incluir citações motivacionais, histórias inspiradoras e recompensas após qualquer realização para motivar os usuários a continuarem usando o aplicativo 2.
+Abrir aba de constância: Se o usuário estiver sendo constante, o aplicativo abrirá uma nova aba com sugestões e recursos para ajudá-lo a manter sua constância. Isso pode incluir lembretes, notificações e estratégias pessoais que o usuário pode adicionar ao seu perfil 2.
